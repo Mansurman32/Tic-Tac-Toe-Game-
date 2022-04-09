@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: chartreuse;
+    font-family: 'finger paint', cursive;
+}
+h1{
+    margin-bottom: 40px;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 54px;
+    text-transform: uppercase;
+}
+.container{
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #37505C;
+}
+#gameboard{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+    font-size: 120px;
+    border: 2px solid;
+}
+#restart-btn{
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: 1px solid chartreuse;
+    border-radius: 10px;
+    color: #37505C;
+    background-color: chartreuse;
+    font-size: 18px;
+    transition: 0.5 ease-in-out;
+}
+#restart-btn:hover{
+    padding: 11px 21px;
+    color: white; 
+    background-color: rgba(128, 255, 0, 0.459); 
+}
